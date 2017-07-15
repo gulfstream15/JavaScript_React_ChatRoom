@@ -1,0 +1,49 @@
+header {
+  color: #f36363;
+  font-family: 'Lobster', cursive;
+}
+
+form {
+  margin-bottom: 40px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 24px;
+}
+
+input[type="submit"] {
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 20px;
+  background: #f36363;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.message {
+  padding: 10px 20px;
+  width: 75%;
+  margin: 0 auto 30px auto;
+  background-color: #f36363;
+  color: #fff;
+}
+
+.message h3 {
+  margin-top: 0;
+  font-family: 'Lobster', cursive;
+  font-size: 24px;
+}
+
+.message p {
+  font-family: 'Rubik', sans-serif;
+  margin-left: 40px;
+}
